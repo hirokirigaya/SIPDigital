@@ -1,0 +1,11 @@
+.grafico {
+  margin: 1rem 0;
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.grafico h2 {
+  padding: 1rem;
+  color: var(--text-secondary);
+}

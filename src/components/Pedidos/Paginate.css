@@ -1,0 +1,28 @@
+.pagination {
+  display: flex;
+  gap: .3rem;
+}
+
+.pagination li {
+  list-style: none;
+  cursor: pointer;
+}
+.pagination li a{
+ list-style: none;
+ padding: 8px 12px;
+ border-radius: 4px;
+ border: 1px solid var(--border);
+}
+
+
+.activePageLink a {
+  background-image: var(--gradient);
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 4px;
+
+}
+
+.prevBtn, .nextBtn {
+  cursor: pointer;
+}

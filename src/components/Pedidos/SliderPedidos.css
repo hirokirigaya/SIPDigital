@@ -1,0 +1,68 @@
+.dataPedidos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.dataPedidos p {
+  color: var(--text-primary);
+  width: 100%;
+}
+
+.dataPedidos .id p{
+  margin-left: 1.5rem;
+}
+
+.dataPedidos .ver p{
+  color: #5AB1F3 ;
+  cursor: pointer;
+}
+
+.dataPedidos .status p {
+  margin-left: 2rem;
+}
+
+.dataPedidos .btnRecomendada button{
+  border: none;
+  background-image: linear-gradient(90deg, #3374AB 0%, #5AB1F3 59.9%, #6BD8FE 100%);
+  padding: 1rem 1rem;
+  font-weight: 400;
+  color: #e6e6e6;
+  font-size: 0.7rem;
+  min-width: 185px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: 200ms ease-in-out;
+}
+
+.dataPedidos .btnRecomendada button:hover {
+  filter: grayscale(30%);
+}
+
+@media(max-width: 1024px) {
+  .dataPedidos .ver {
+    display: none;
+  }
+  .dataPedidos .comprador {
+    display: none;
+  }
+  .dataPedidos .status {
+    display: none;
+  }
+}
+
+@media(max-width: 600px) {
+  .dataPedidos .ver {
+    display: none;
+  }
+  .dataPedidos .comprador {
+    display: none;
+  }
+  .dataPedidos .status {
+    display: none;
+  }
+  .dataPedidos .horario {
+    display: none;
+  }
+}

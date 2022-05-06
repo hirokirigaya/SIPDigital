@@ -1,0 +1,9 @@
+.App {
+  display: flex;
+}
+
+.App .containerGroup {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

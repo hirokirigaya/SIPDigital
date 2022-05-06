@@ -1,0 +1,41 @@
+.cards {
+  display: flex;
+  width: 100%;
+  gap: .8rem;
+  justify-content: space-around;
+}
+.cards .card {
+  background-color: #fff;
+  width: 100%;
+  box-shadow: 0px 12px 26px rgba(16, 30, 115, 0.06);
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  border-radius: 8px;
+}
+
+.cards .card .details {
+  display: flex;
+  flex-direction: column;
+  gap: .2rem;
+}
+
+.cards .card h3 {
+  color: var(--text-secondary);
+}
+
+.cards .card span {
+  color: var(--blue);
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+@media(max-width: 1024px) {
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: .8rem;
+    justify-content: space-around;
+  }
+}
